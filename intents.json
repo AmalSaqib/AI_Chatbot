@@ -1,0 +1,35 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["Hi", "hello", "Sup", "What's up"],
+        "responses": ["Hello! How can I assist you today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later"],
+        "responses": ["Goodbye! If you have more questions, feel free to ask."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks", "thank you", "appreciate it"],
+        "responses": ["You're welcome! If you need further help, let me know."]
+      },
+      {
+        "tag": "help",
+        "patterns": ["help", "assistance", "support"],
+        "responses": ["Sure, I'm here to help. What do you need assistance with?"]
+      },
+      {
+        "tag": "about_bot",
+        "patterns": ["who are you", "what are you", "your purpose"],
+        "responses": ["I am a chatbot designed to assist you with information and tasks. How can I help you today?"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["", "I don't know", "not sure"],
+        "responses": ["I'm sorry, I didn't understand that. Can you please provide more details or ask a different question?"]
+      }
+    ]
+  }
+  
